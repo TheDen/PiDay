@@ -1,0 +1,38 @@
+html  {
+    -webkit-font-smoothing: antialiased; 
+    background-attachment: fixed;
+    no-repeat center; center; fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    text-shadow: 0px 0px 1px;
+}
+
+body {
+    // overflow:hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align:center;
+//    font-size: 20px;
+
+}
+
+img {
+    //   max-width: 100%;
+    //    height: auto;
+    //    width: auto\9; /* ie8 */
+    text-align: center;
+    font-size: 0;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    outline: 0;
+    margin:0;
+    padding:0;
+}
+
