@@ -2,7 +2,7 @@
 
 URL: [http://euler.party](http://euler.party)
 
-* Clientside javascript hack with lookup of PI's digits
-* Finds where the current date exists in PI
+* Finds where the current date exists in Pi 
+* Clientside javascript hack with lookup of Pi's digits
 * Uses moment.js library to parse dates (http://momentjs.com/)
 
