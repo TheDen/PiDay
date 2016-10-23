@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
+    <script src="pi.js"></script>
+    <script src="moment.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="google-site-verification" content="ycSMcVvjRRMTTpN6BDVjixVQRtGFPoHNAzwgMTECnYw" />
+    <meta name="Keywords" content="Pi, Universal Pi, Pi day, University of New South Wales, science" />
+    <meta name="Description" content="Pi day" />
+    <link rel='icon' href='favicon.ico' type='image/x-icon' />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <title>Every day is Pi day</title>
+  </head>
+  <body>
+    <div style="text-align:center;">
+      <br />
+      <div style="text-align: center;"><img src="pi.png" alt="Pi day" /></div>
+      <p>
+	The current date is
+	<span id="clock" class="clock">
+	  <script>
+	    document.write(moment().format("ddd MMM DD YYYY HH:mm:ss [GMT]ZZ."));
+	    function update() {
+	    $('#clock').html(moment().format("ddd MMM DD YYYY HH:mm:ss [GMT]ZZ."));
+	    }
+	    setInterval(update,1000);
+	  </script>
+	</span>
+	<br />
+	<br />
+	Parsed as DDMMYY, it's the number
+	<b>
+	  <span id="clock2" class="clock2">
+	    <script>
+	      document.write(moment().format("DDMMYY"));
+	      function update2() {
+	      $('#clock2').html(moment().format("DDMMYY"));
+	      }
+	      setInterval(update2,1000);
+	    </script>
+	  </span>
+	</b>
+	<br />
+	This number occurs at the decimal position
+	<b>
+	  <span id="clock3" class="clock3">
+	    <script>
+	      document.write(piFunction("DDMMYY"));
+	      function update3() {
+	      $('#clock3').html(piFunction("DDMMYY"));
+	      }
+	      setInterval(update3,1000);
+	    </script>
+	  </span>
+	</b>
+	of Pi.
+	<br />
+	<br />
+		Parsed as HHMMSS, it's the number
+	<b>
+	  <span id="clock4" class="clock4">
+	    <script>
+	      document.write(moment().format("HHmmss"));
+	      function update4() {
+	      $('#clock4').html(moment().format("HHmmss"));
+	      }
+	      setInterval(update4,1000);
+	    </script>
+	  </span>
+	</b>
+	<br />
+	This number occurs at the decimal position
+	<b>
+	  <span id="clock5" class="clock5">
+	    <script>
+	      document.write(piFunction("HHmmss"));
+	      function update5() {
+	      $('#clock5').html(piFunction("HHmmss"));
+	      }
+	      setInterval(update5,1000);
+	    </script>
+	  </span>
+	</b>
+	of Pi.
+      </p>
+    </div>
+  </body>
+</html>
