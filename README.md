@@ -1,7 +1,7 @@
-# piday
+# PiDay
 
-[euler.party](http://euler.party)
+URL: [http://euler.party](http://euler.party)
 
-Finds where the current date exists in pi (done with clientside javascript).
+* Clientside javascript hack with lookup of PI's digits
+* Finds where the current date exists in PI
 
-Numbers are parsed for `DDMMYY` and `HHMMSS` 
