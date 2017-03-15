@@ -7,7 +7,7 @@ html  {
     -o-background-size: cover;
     background-size: cover;
     min-height: 100%;
-    text-shadow: 0px 0px 1px;
+//    text-shadow: 0px 0px 1px;
 }
 
 body {
@@ -28,7 +28,7 @@ img {
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
-    user-select: none;          /* Likely future */
+    user-select: none;          
     -khtml-user-select: none;
     -o-user-select: none;
     outline: 0;
